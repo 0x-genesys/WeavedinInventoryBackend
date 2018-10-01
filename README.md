@@ -1,10 +1,10 @@
-#Inventory project for Weavedin by Karan
+# Inventory project for Weavedin by Karan
 
 Project is made on Django using SqlAlchemy as ORM
 
-##APIs
+## APIs
 
-###/api/createStoreEntry
+### /api/createStoreEntry
 
 Request:
 
@@ -22,7 +22,7 @@ Response:
 }
 
 
-###/api/createBranchEntry
+### /api/createBranchEntry
 
 Request:
 
@@ -43,7 +43,7 @@ Response:
 
 
 
-###/api/createItemEntry/
+### /api/createItemEntry/
 
 Request:
 
@@ -64,7 +64,7 @@ Response:
 }
 
 
-###/api/create_variant_entry
+### /api/create_variant_entry
 
 
 Request:
@@ -94,7 +94,7 @@ Response:
 
 
 
-###/api/edit_variants
+### /api/edit_variants
 
 
 Request:
@@ -122,7 +122,7 @@ Response:
 }
 
 
-###/api/get_variants?variant_code=21192
+### /api/get_variants?variant_code=21192
 
 
 TYPE: GET
@@ -156,7 +156,7 @@ Response:
 
 
 
-###/api/getItem?product_code=121
+### /api/getItem?product_code=121
 
 
 TYPE: GET
@@ -182,7 +182,7 @@ Response:
 
 
 
-###/api/edit_items
+### /api/edit_items
 
 type: POST
 
@@ -206,7 +206,7 @@ Response:
 
 
 
-###/api/getLogs
+### /api/getLogs
 
 
 type: POST
