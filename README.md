@@ -6,6 +6,10 @@ Project is made on Django using SqlAlchemy as ORM
 
 ### /api/createStoreEntry
 
+Creates a store Entry
+
+Type : POST
+
 Request:
 
 {
@@ -23,6 +27,10 @@ Response:
 
 
 ### /api/createBranchEntry
+
+Creates a branch Entry
+
+Type : POST
 
 Request:
 
@@ -45,6 +53,10 @@ Response:
 
 ### /api/createItemEntry/
 
+Creates an Item Entry
+
+Type : POST
+
 Request:
 
 {
@@ -66,9 +78,12 @@ Response:
 
 ### /api/create_variant_entry
 
+Creates an Variant Entry
+
+
+Type : POST
 
 Request:
-
 
 {
 	"item_product_code":121,
@@ -96,6 +111,10 @@ Response:
 
 ### /api/edit_variants
 
+Edit Variant Entry
+
+
+Type : POST
 
 Request:
 
@@ -123,6 +142,8 @@ Response:
 
 
 ### /api/get_variants?variant_code=21192
+
+Get variant Entries
 
 
 TYPE: GET
@@ -158,6 +179,8 @@ Response:
 
 ### /api/getItem?product_code=121
 
+Get item Entries
+
 
 TYPE: GET
 
@@ -184,6 +207,8 @@ Response:
 
 ### /api/edit_items
 
+Edit items
+
 type: POST
 
 Request:
@@ -207,6 +232,8 @@ Response:
 
 
 ### /api/getLogs
+
+Get user's activity Logs
 
 
 type: POST
