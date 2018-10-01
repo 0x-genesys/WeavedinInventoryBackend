@@ -1,0 +1,15 @@
+arrow==0.12.1
+backports.functools-lru-cache==1.5
+Click==7.0
+Django==1.11.15
+Flask==1.0.2
+Flask-SQLAlchemy==2.3.2
+itsdangerous==0.24
+Jinja2==2.10
+MarkupSafe==1.0
+python-dateutil==2.7.3
+pytz==2018.5
+six==1.11.0
+SQLAlchemy==1.2.12
+SQLAlchemy-Utils==0.33.5
+Werkzeug==0.14.1
